@@ -1,0 +1,66 @@
+html{
+  font-size: 62.5%;
+  box-sizing:border-box;
+}
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+:root{
+  --clr-bg-main: #282828;
+  --clr-txt-gold: #caaa67;
+}
+body{
+  font-size:1.6rem;
+  padding: 0;
+  margin: 0;
+  background-color: var(--clr-bg-main);
+  color: var(--clr-txt-gold);
+  min-height: 100vh;
+}
+h1{
+  text-align: center;
+}
+.container{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8rem;
+  
+ 
+}
+.introContainer{
+  display: flex;
+}
+.alignText{
+  text-align: center;
+}
+
+.border{
+  border: 0.1rem dotted white;
+  width: 15rem;
+  height: 15rem;
+}
+.gestureContainer{
+  display: flex;
+}
+.introContainer div{
+  margin-inline: 4rem;
+}
+.textAlign{
+  display: flex;
+  align-items: center;
+}
+.gestureBG{
+  background-color:var(--clr-txt-gold) ;
+  font-size: 7rem;
+  
+}
+.gestureContainer div{
+  margin: 4rem;
+}
+.gestureContainer div p{
+  text-align: center;
+}
