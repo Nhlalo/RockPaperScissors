@@ -29,8 +29,3 @@ function playRound(playerSelection, computerSelection){
 
 
 
-for(let i = 0; i < 5; i++){
-  let computerSelection = computerPlay();
-  let playerSelection = prompt('ROCK, PAPER or SCISSORS').toLowerCase();
-  playRound(playerSelection, computerSelection);
-}
