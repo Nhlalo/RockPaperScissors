@@ -150,3 +150,31 @@ button{
   
 }
 
+@media (max-width:52.5rem){
+  body{
+    font-size: 0.9rem;
+  }
+  h1{
+    max-width: 25ch;
+    font-size: 1.5rem;
+  }
+  .introContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .determineScore1{
+  margin-left: 0rem;
+  }
+  .determineScore{
+  margin-right: 0rem;
+  }
+  .gestureContainer div{
+    margin: 1rem;
+  }
+  img{
+    width:5.7rem;
+    height: 5.5rem;
+    margin-top: 2.5rem;
+  }
+  
+}
