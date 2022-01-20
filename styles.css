@@ -31,6 +31,9 @@ h1{
   flex-direction: column;
   align-items: center;
   margin-top: 3rem;
+  height: 90%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .introContainer{
   display: flex;
