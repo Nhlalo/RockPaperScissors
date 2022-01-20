@@ -9,8 +9,10 @@
    <script src="game.js" defer></script>
 </head>
 <body> 
+
 <header>
     <h1>ROCK PAPER SCISSORS GAME</h1>
+    <p>BEST OF FIVE ROUNDS.</p>
 </header>
   
 <main>
@@ -19,16 +21,29 @@
     <div class="introContainer">
       <div>
         <p class="alignText">THE CONQUEROR</p>
-        <div class="border"></div>
+        <div class="border">
+          <img src="/Untitled2.png" alt="" class="showRock hidden">
+          <img src="/Untitled1.png" alt="" class="showPaper hidden">
+          <img src="/Untitled.png" alt="" class="showScissors hidden">
+        </div>
         <p class="alignText">Your Score:</span><span id="playerScore">0</p>
         </div>
       
       <div class="textAlign">
-        <p>Lets Play!</p>
+        <p class="absolute">Lets Play!</p>
+        <div class="hidden absolute">
+          <p class="endOfGame"></p>
+          <p>WANT TO PLAY AGAIN?</p>
+          <Button>Reset</Button>
+        </div>
       </div>
         <div>
           <p class="alignText">THE MACHINE</p>
-          <div class="border"></div>
+          <div class="border border1">
+            <img src="/Untitled2.png" alt="" class="showRock1 hidden " >
+            <img src="Untitled1.png" alt="" class="showPaper1 hidden">
+             <img src="Untitled.png" alt="" class="showScissors1 hidden">
+          </div>
           <p class="alignText">Your Score:</span><span id="computerScore">0</p>
         </div>
       
@@ -36,22 +51,26 @@
 
     <div class="gestureContainer">
       <div>
-        <span class="gestureBG" >&#9994;</span>
+        <img src="/Untitled2.png" alt="" class="gestureBG rock">
         <p>ROCK</p>
       </div>
       <div>
-        <span class="gestureBG">&#9995;</span>
+        <img src="/Untitled1.png" alt="" class="gestureBG paper">
         <P>PAPER</P>
       </div>
       <div>
-        <span class="gestureBG">&#9995;</span>
+        <img src="/Untitled.png" alt="" class="gestureBG scissors">
         <p>SCISSORS</p>
       </div>
         </div>
+        
     </div>
+    
 </main>
 <footer>
-
+ <div class="footerContainer">
+   <p>Copyrights &copy Nhlalo 2022</p>
+ </div>
 </footer>
 
 
