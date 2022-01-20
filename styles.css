@@ -21,6 +21,10 @@ body{
   width: 90vw;
   margin-left:auto;
   margin-right:auto;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
 }
 header p{
   text-align: center;
