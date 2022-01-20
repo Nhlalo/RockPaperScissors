@@ -128,12 +128,16 @@ button{
 .highLightRed{
   border: 0.1rem dotted red;
 }
+
 .footerContainer{
   width:90%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 0;
   
 }
 
@@ -142,12 +146,9 @@ button{
     font-size: 1.2rem;
   }
   .container{
-    margin-top: 4rem;
+    margin-top: 1.5rem;
   }
-  .introContainer div{
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
+ 
   .textAlign {
     display: flex;
     justify-content: center;
@@ -163,17 +164,31 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
   }
   .gestureContainer div{
     margin: 2rem;
   }
-  .gestureBG{
-    font-size: 3.5rem;
-  }
+ 
   img{
     width: 4rem;
     height: 4rem;
     margin-top:0;
   }
+  
+  .textAlign div{
+    width: 50%;
+    height: 15%;
+  }
+ .determineScore{
+   margin-bottom:7rem;
+ }
+ .determineScore1{
+   margin-top:7rem;
+   margin-bottom: 3rem;
+ }
+
+ 
+  
 }
   
