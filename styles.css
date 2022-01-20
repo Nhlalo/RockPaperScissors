@@ -25,7 +25,8 @@ h1{
 }
 .container{
   width: 90%;
-  margin:auto;
+  margin-left:auto;
+  margin-right:auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -105,7 +106,7 @@ button{
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  
 }
 .showRock,
 .showPaper,
@@ -140,7 +141,7 @@ button{
   
 }
 
-@media (max-width:38.75rem){
+@media (max-width:850px){
   body{
     font-size: 1.2rem;
   }
@@ -150,6 +151,7 @@ button{
  
   .textAlign {
     display: flex;
+    flex: column;
     justify-content: center;
     align-items: center;
   }
@@ -175,10 +177,7 @@ button{
     margin-top:0;
   }
   
-  .textAlign div{
-    width: 50%;
-    height: 15%;
-  }
+
  .determineScore{
    margin-bottom:7rem;
  }
