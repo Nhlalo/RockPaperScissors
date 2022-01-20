@@ -15,7 +15,7 @@ body{
   margin: 0;
   background-color: var(--clr-bg-main);
   color: var(--clr-txt-gold);
-  min-height: 100vh;
+ 
 }
 header p{
   text-align: center;
@@ -25,8 +25,7 @@ h1{
 }
 .container{
   width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+  margin:auto;
   display: flex;
   flex-direction: column;
   align-items: center;
