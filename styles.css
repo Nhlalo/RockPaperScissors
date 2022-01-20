@@ -17,6 +17,9 @@ body{
   color: var(--clr-txt-gold);
   min-height: 100vh;
 }
+header p{
+  text-align: center;
+}
 h1{
   text-align: center;
 }
@@ -27,14 +30,35 @@ h1{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 8rem;
-  
- 
+  margin-top: 3rem;
 }
 .introContainer{
   display: flex;
 }
 .alignText{
+  text-align: center;
+}
+.textAlign div{
+  background: var(--clr-txt-gold);
+  color: var(--clr-bg-main);
+  width: 25rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  width:7.7rem;
+  height: 7.5rem;
+  margin-top: 1.5rem;
+}
+.textAlign div button{
+  background: var(--clr-bg-main);
+  color: var(--clr-txt-gold);
+  border: none;
+}
+.endOfGame{
   text-align: center;
 }
 
@@ -46,16 +70,30 @@ h1{
 .gestureContainer{
   display: flex;
 }
+button{
+  width: 5rem;
+  height: 4rem;
+}
+.absolute{
+  position: absolute;
+}
 .introContainer div{
-  margin-inline: 4rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
 }
 .textAlign{
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .gestureBG{
   background-color:var(--clr-txt-gold) ;
   font-size: 7rem;
+  cursor: pointer;
+  
+}
+.gestureBG:hover{
+  box-shadow: 0 0 2rem 0 var(--clr-txt-gold);
   
 }
 .gestureContainer div{
@@ -64,3 +102,78 @@ h1{
 .gestureContainer div p{
   text-align: center;
 }
+.border{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.showRock,
+.showPaper,
+.showScissors,
+.showScissors1,
+.showRock1,
+.showPaper1{
+  
+  position: absolute;
+  
+}
+
+.hidden{
+  visibility: hidden;
+}
+.highLightGreen{
+  border: 0.1rem dotted green;
+}
+.highLightRed{
+  border: 0.1rem dotted red;
+}
+.footerContainer{
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  
+}
+
+@media (max-width:38.75rem){
+  body{
+    font-size: 1.2rem;
+  }
+  .container{
+    margin-top: 4rem;
+  }
+  .introContainer div{
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .textAlign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .border{
+  
+    width: 7rem;
+    height: 7rem;
+  }
+  .introContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .gestureContainer div{
+    margin: 2rem;
+  }
+  .gestureBG{
+    font-size: 3.5rem;
+  }
+  img{
+    width: 4rem;
+    height: 4rem;
+    margin-top:0;
+  }
+}
+  
