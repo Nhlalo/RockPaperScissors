@@ -150,7 +150,7 @@ button{
   
 }
 
-@media (max-width:52.5rem){
+@media (max-width:50rem){
   body{
     font-size: 0.9rem;
   }
@@ -180,6 +180,16 @@ button{
   }
   .container{
     margin-top: 1.5rem;
+  }
+  .border{
+   
+    width: 9rem;
+    height: 9rem;
+    
+      display: flex;
+      justify-content: center;
+      align-items: initial;
+      
   }
   
 }
