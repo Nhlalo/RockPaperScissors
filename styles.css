@@ -144,49 +144,39 @@ button{
   
 }
 
-@media (max-width:850px){
+@media (max-width:840px){
   body{
     font-size: 1.2rem;
   }
   .container{
     margin-top: 1.5rem;
   }
- 
-  .textAlign {
-    display: flex;
-    flex: column;
-    justify-content: center;
-    align-items: center;
-  }
   .border{
-  
     width: 7rem;
     height: 7rem;
   }
   .introContainer{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
   }
   .gestureContainer div{
     margin: 2rem;
   }
- 
   img{
     width: 4rem;
     height: 4rem;
     margin-top:0;
   }
-  
-
  .determineScore{
    margin-bottom:7rem;
  }
  .determineScore1{
    margin-top:7rem;
    margin-bottom: 3rem;
+ }
+ .textAlign div{
+   width: 25rem;
+   height: 12rem;
  }
 
  
