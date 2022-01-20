@@ -164,9 +164,11 @@ button{
   }
   .determineScore1{
   margin-left: 0rem;
+  margin-top: 7rem;
   }
   .determineScore{
   margin-right: 0rem;
+  margin-bottom: 7rem;
   }
   .gestureContainer div{
     margin: 1rem;
@@ -175,6 +177,9 @@ button{
     width:5.7rem;
     height: 5.5rem;
     margin-top: 2.5rem;
+  }
+  .container{
+    margin-top: 1.5rem;
   }
   
 }
