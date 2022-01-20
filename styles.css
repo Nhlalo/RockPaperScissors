@@ -144,7 +144,7 @@ button{
   
 }
 
-@media (max-width:840px){
+@media (max-width:800px){
   body{
     font-size: 1.2rem;
   }
@@ -177,6 +177,7 @@ button{
  .textAlign div{
    width: 25rem;
    height: 12rem;
+   margin-right: 23rem
  }
 
  
