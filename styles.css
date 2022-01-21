@@ -1,6 +1,7 @@
 html{
   font-size: 62.5%;
   box-sizing:border-box;
+  height: 100%;
 }
 *, *::before, *::after{
   box-sizing: inherit;
@@ -15,7 +16,7 @@ body{
   margin: 0;
   background-color: var(--clr-bg-main);
   color: var(--clr-txt-gold);
- 
+  min-height: 100%;
 }
 .mainContainer{
   width: 90vw;
@@ -38,7 +39,7 @@ h1{
   flex-direction: column;
   align-items: center;
   margin-top: 3rem;
-  min-height: 100vh;
+
   
 }
 .introContainer{
@@ -140,17 +141,35 @@ button{
 .highLightRed{
   border: 0.1rem dotted red;
 }
-
 .footerContainer{
-  
   display: flex;
   justify-content: center;
-  align-items: center;
- ;
+}
+footer{
+  margin-top: auto;
+}
+@media(max-width:46.875rem){
+  img{
+    width:5.7rem;
+    height: 5.5rem;
+    margin-top: 2.5rem;
+  }
+ 
+  .border{
+   
+    width: 9rem;
+    height: 9rem;
   
+      
+  }
+  .alignText{
+    text-align: initial;
+  }
+ 
 }
 
-@media (max-width:50rem){
+
+@media (max-width:33.125rem){
   body{
     font-size: 0.9rem;
   }
@@ -191,5 +210,23 @@ button{
       align-items: initial;
       
   }
-  
+  @media(max-width:46.875rem){
+    img{
+      width:5.7rem;
+      height: 5.5rem;
+      margin-top: 2.5rem;
+    }
+   
+    .border{
+     
+      width: 9rem;
+      height: 9rem;
+    
+        
+    }
+    .alignText{
+      text-align: center;
+    }
+   
+  }
 }
