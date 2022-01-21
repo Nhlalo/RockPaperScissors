@@ -17,14 +17,19 @@ body{
   background-color: var(--clr-bg-main);
   color: var(--clr-txt-gold);
   min-height: 100%;
-}
-.mainContainer{
-  width: 90vw;
-  margin-left:auto;
-  margin-right:auto;
   display: flex;
   flex-direction: column;
-
+}
+.main2{
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+.mainContainer{
+ 
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
   align-items: center;
 }
 header p{
@@ -76,10 +81,9 @@ img{
   border: 0.1rem dotted white;
   width: 15rem;
   height: 15rem;
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
     
 }
 .gestureContainer{
@@ -108,11 +112,9 @@ button{
   background-color:var(--clr-txt-gold) ;
   font-size: 7rem;
   cursor: pointer;
-  
 }
 .gestureBG:hover{
   box-shadow: 0 0 2rem 0 var(--clr-txt-gold);
-  
 }
 .gestureContainer div{
   margin: 4rem;
@@ -156,16 +158,12 @@ footer{
   }
  
   .border{
-   
     width: 9rem;
     height: 9rem;
-  
-      
   }
   .alignText{
     text-align: initial;
   }
- 
 }
 
 
@@ -201,13 +199,11 @@ footer{
     margin-top: 1.5rem;
   }
   .border{
-   
     width: 9rem;
     height: 9rem;
-    
-      display: flex;
-      justify-content: center;
-      align-items: initial;
+    display: flex;
+    justify-content: center;
+    align-items: initial;
       
   }
   @media(max-width:46.875rem){
@@ -215,18 +211,13 @@ footer{
       width:5.7rem;
       height: 5.5rem;
       margin-top: 2.5rem;
-    }
-   
-    .border{
+    }border{
      
       width: 9rem;
       height: 9rem;
-    
-        
     }
     .alignText{
       text-align: center;
     }
-   
   }
 }
